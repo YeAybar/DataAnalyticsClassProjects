@@ -18,7 +18,7 @@ SELECT * FROM ya_videos;
 ------------------------------------------------------
 ------/*REVIEW TABLE*/--------
 
-CREATE TABLE ya_review(
+CREATE TABLE ya_reviews(
 reviewer_id SERIAL PRIMARY KEY,
 reviewer_name VARCHAR (250),
 vid_ID INT NOT NULL,
