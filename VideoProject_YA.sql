@@ -8,10 +8,10 @@ vid_link VARCHAR (250));
 -----/*VIDEO TABLE DATA*/-----
 INSERT INTO ya_videos 
 VALUES(01,'4 SQL Tips For Data Scientists And Data Analysts',14.75, 'https://youtu.be/kSt9NV-qZkc')
-(02,'Tips and Tricks for Using SQL Server Management Studio Effectively',57.22 , 'https://youtu.be/e476ZvVRuA0')
-(03,'Efficiency Trick - Query Shortcuts - SQL in Sixty Seconds 143',2.55, 'https://youtu.be/DY2iTMzyxGw')
-(04,'SQL BEST PRACTICES: 7 tips for junior data scientists and analysts (SQL tutorial for beginners EP#3)',24.05 , 'https://youtu.be/SrwB-nInhUA')
-(05,'SQL Tips In 60 seconds',1.50 , 'https://sqltipsin60.com');
+,(02,'Tips and Tricks for Using SQL Server Management Studio Effectively',57.22 , 'https://youtu.be/e476ZvVRuA0')
+,(03,'Efficiency Trick - Query Shortcuts - SQL in Sixty Seconds 143',2.55, 'https://youtu.be/DY2iTMzyxGw')
+,(04,'SQL BEST PRACTICES: 7 tips for junior data scientists and analysts (SQL tutorial for beginners EP#3)',24.05 , 'https://youtu.be/SrwB-nInhUA')
+,(05,'SQL Tips In 60 seconds',1.50 , 'https://sqltipsin60.com');
 
 ---/*VALIDATION*/---
 SELECT * FROM ya_videos;
